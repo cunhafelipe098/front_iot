@@ -1,0 +1,80 @@
+.device {
+    margin-top: 0.3rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.device > img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 8px;
+}
+
+.deviceBox {
+    flex: 1;
+}
+
+.deviceContent {
+    background: var(--gray-700);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.deviceContent header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.componente strong {
+    display: inline;
+    margin-left: 2rem;
+    align-content: space-between;
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+.deviceContent header button {
+    background: transparent;
+    border: 0;
+    color: var(--gray-400);
+    cursor: pointer;
+    line-height: 0;
+    border-radius: 2px;
+}
+
+.deviceContent header button:hover {
+    color: var(--red-500);
+}
+
+.deviceContent p {
+    color: var(--gray-300);
+}
+
+.deviceBox footer {
+    margin-top: 1rem;
+}
+
+.deviceBox footer button {
+    background: transparent;
+    border: 0;
+    color: var(--gray-400);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    border-radius: 2px;
+}
+
+.deviceBox footer button:hover {
+    color: var(--green-300);
+}
+
+.deviceBox footer button svg {
+    margin-right: 0.5rem;
+}
+
+.deviceBox footer button span::before {
+    padding: 0 0.25rem;
+    content: "\2022";
+}
